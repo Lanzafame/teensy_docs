@@ -1,0 +1,67 @@
+<h1>Teensy LCD Library</h1>
+
+<h2>Globals</h2>
+
+<h3>Assigned PINs</h3>
+
+<p>DCPIN -> PORTB 5</p>
+
+<p>RSTPIN -> PORTB 4</p>
+
+<p>DINPIN -> PORTB 6</p>
+
+<p>SCKPIN -> PORTF 7</p>
+
+<p>SCEPIN -> PORTD 7</p>
+
+<h3>LCD Command/Data</h3>
+
+<p>LCD_C -> 0</p>
+
+<p>LCD_D -> 1</p>
+
+<h3>LCD Contrast Level</h3>
+
+<p>LOW -> 0x2F</p>
+
+<p>DEFAULT -> 0x3F</p>
+
+<p>HIGH -> 0x4F</p>
+
+<h3>CPU Frequencies</h3>
+
+<p>CPU_PRESCALE(n) -> (CLKPR = 0x80, CLKPR = (n))</p>
+
+<p>CPU_8MHz -> 0x01</p>
+
+<h2>Macros</h2>
+
+<h4>Set Input</h4>
+
+<p><code>SET_INPUT(portdir, pin)
+</code></p>
+
+<h4>Set Output</h4>
+
+<p><code>SET_OUTPUT(portdir, pin)
+</code></p>
+
+<h4>Write To Output</h4>
+
+<p><code>OUTPUT_WRITE(port, pin, value)
+</code></p>
+
+<h4>Write LOW to Output</h4>
+
+<p><code>OUTPUT_LOW(port, pin)
+</code></p>
+
+<h4>Write HIGH to Output</h4>
+
+<p><code>OUTPUT_HIGH(port, pint)
+</code></p>
+
+<h4>Read Line</h4>
+
+<p><code>READ_LINE(port, pin)
+</code></p>
