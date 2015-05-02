@@ -1,5 +1,7 @@
 # Sprite
 
+[index](index.html)
+
 ## Type
 
 ### Sprite

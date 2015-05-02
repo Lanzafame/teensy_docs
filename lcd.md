@@ -1,5 +1,7 @@
 # Teensy LCD Library
 
+[index](index.html)
+
 ## Globals
 
 ### Assigned PINs

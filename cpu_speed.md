@@ -1,5 +1,7 @@
 # CPU Speed
 
+[index](index.html)
+
 ## Macros
 
 ### Set Clock Speed

@@ -1,4 +1,6 @@
-# Teensy Graphics Library
+# Graphics
+
+[index](index.html)
 
 ## Globals
 

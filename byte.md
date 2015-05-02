@@ -1,5 +1,7 @@
 # Bytes Library
 
+[index](index.html)
+
 ## Types
 
 ### Byte
