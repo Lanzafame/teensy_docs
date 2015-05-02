@@ -1,0 +1,32 @@
+<h1>Sprite</h1>
+
+<h2>Type</h2>
+
+<h3>Sprite</h3>
+
+<p><code>
+typedef struct sprite {
+  float x;
+  float y;
+  byte width;
+  byte height;
+  byte is_visible;
+  byte * bitmap;
+  float dx;
+  float dy;
+} Sprite;
+</code></p>
+
+<h2>Functions</h2>
+
+<h3>Init Sprite</h3>
+
+<p><code>
+void init_sprite(Sprite * sprite, byte x, byte y, byte width, byte height, byte * bitmap);
+</code></p>
+
+<h3>Draw Sprite</h3>
+
+<p><code>
+void draw_sprite(Sprite * sprite);
+</code></p>

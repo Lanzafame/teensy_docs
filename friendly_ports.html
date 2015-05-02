@@ -1,0 +1,89 @@
+<h1>Friendly Ports</h1>
+
+<h2>Macros</h2>
+
+<h3>LED0</h3>
+
+<p>Bitmask and register LED0 (left)</p>
+
+<p><code>
+LED0
+LED0_PORT
+</code></p>
+
+<h3>LED1</h3>
+
+<p>Bitmask and register LED1 (right)</p>
+
+<p><code>
+LED1
+LED1_PORT
+</code></p>
+
+<h3>LED2</h3>
+
+<p>Bitmask and register LED2 (the onboard LED)</p>
+
+<p><code>
+LED2
+LED2_PORT
+</code></p>
+
+<h3>SW0</h3>
+
+<p>Bitmask and register switch 0 (left)</p>
+
+<p><code>
+SW0
+SW0_PORT
+</code></p>
+
+<h3>SW1</h3>
+
+<p>Bitmask and register switch 1 (left)</p>
+
+<p><code>
+SW1
+SW1_PORT
+</code></p>
+
+<h3>Turn LED ON</h3>
+
+<p>@param led [LED0|LED1|LED2]</p>
+
+<p><code>
+turn_on(led)
+</code></p>
+
+<h3>Turn LED OFF</h3>
+
+<p>@param led [LED0|LED1|LED2]</p>
+
+<p><code>
+turn_off(led)
+</code></p>
+
+<h3>Button Pressed</h3>
+
+<p>@param button [SW0|SW1]
+@return bool</p>
+
+<p><code>
+pressed(button)
+</code></p>
+
+<h3>Wait Until</h3>
+
+<p>@param cond Boolean statement</p>
+
+<p><code>
+wait_until( cond )
+</code></p>
+
+<h3>Left Button Led Wait</h3>
+
+<p>@param zzz Nothing</p>
+
+<p><code>
+db_wait(zzz)
+</code></p>
